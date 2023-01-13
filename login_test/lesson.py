@@ -12,6 +12,6 @@ import requests
 
 def test_login():
     url = 'http://www.baidu.com'
-    data = {"datas": "python自动化"}
+    data = {"datas": "功能测试"}
     res = requests.get(url, data)
     return res
