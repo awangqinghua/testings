@@ -7,6 +7,11 @@
 # @Software : PyCharm
 
 
-print(5+5)
-print(6+6+2+3+6+9+0)
+import requests
 
+
+def test_login():
+    url = 'http://www.baidu.com'
+    data = {"datas": "python"}
+    res = requests.get(url, data)
+    return res
