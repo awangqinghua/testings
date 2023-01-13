@@ -12,6 +12,6 @@ import requests
 
 def test_login():
     url = 'http://www.baidu.com'
-    data = {"datas": "python"}
+    data = {"datas": "java"}
     res = requests.get(url, data)
     return res
